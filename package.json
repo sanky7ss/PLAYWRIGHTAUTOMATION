@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "Web_API": "npx playwright test tests/WebAIPIpart1.spec.js --headed"
+    "Web_API": "npx playwright test tests/WebAIPIpart1.spec.js --headless"
     
   },
   "keywords": [],
