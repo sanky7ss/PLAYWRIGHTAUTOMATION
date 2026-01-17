@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "Web_API": "npx playwright test tests/WebAIPIpart1.spec.js --headed",
-    "webTests": "npx playwright test --grep @Web",
-    "cucumberScripts": "npx cucumber-js features/Ecommerce.feature --parallel 2 --retry 1 --exit --format html:cucumber-report.html"
+    "Web_API": "npx playwright test tests/WebAIPIpart1.spec.js --headed"
+    
   },
   "keywords": [],
   "author": "",
