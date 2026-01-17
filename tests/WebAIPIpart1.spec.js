@@ -1,6 +1,6 @@
 const {test,expect,request} = require ('@playwright/test');
 const loginPayLoad = {userEmail: "sanky7ss@gmail.com", userPassword: "Iamking@000"};
-const orderPayload ={orders: [{country: "Cuba", productOrderedId: "68a961719320a140fe1ca57c"}]};
+const orderPayload ={orders: [{country: "Cuba", productOrderedId: "6960eac0c941646b7a8b3e68"}]};
 const {ApiUtils} = require('../utils/APiUtils');
 
 //let token;
