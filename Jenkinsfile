@@ -1,4 +1,4 @@
-pipeline { 
+pipeline {  
   agent any
 
   triggers {
@@ -14,14 +14,14 @@ pipeline {
 
     stage('Install Dependencies') {
       steps {
-        sh 'npm ci'
+        bat 'npm ci'
       }
     }
 
     stage('Run Playwright Tests') {
       steps {
-        sh 'npx playwright install --with-deps'
-        sh 'npx playwright test'
+        bat 'npx playwright install --with-deps'
+        bat 'npx playwright test'
       }
     }
   }
