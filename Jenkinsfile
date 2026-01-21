@@ -29,9 +29,10 @@ pipeline {
         bat 'npx allure generate allure-results --clean -o allure-report'
       }
     }
-    post {
+    
+}
+post {
      always {
         archiveArtifacts artifacts: 'allure-report/**', fingerprint: true
       }
-  }
-}}
+  }}
