@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "Web_API": "npx playwright test tests/WebAIPIpart1.spec.js --headless"
-    
+    "Web_API": "npx playwright test tests/WebAIPIpart1.spec.js"
   },
   "keywords": [],
   "author": "",
@@ -16,7 +15,8 @@
     "@playwright/mcp": "^0.0.55",
     "@playwright/test": "^1.57.0",
     "@types/node": "^24.10.1",
-    "allure-playwright": "^3.4.3"
+    "allure-commandline": "^2.36.0",
+    "allure-playwright": "^3.4.5"
   },
   "dependencies": {
     "exceljs": "^4.4.0"

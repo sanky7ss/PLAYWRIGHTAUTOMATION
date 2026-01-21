@@ -24,5 +24,14 @@ pipeline {
         bat 'npx playwright test'
       }
     }
+    stage('Generate Allure Report') {
+     steps {
+        bat 'npx allure generate allure-results --clean -o allure-report'
+      }
+    }
+    post {
+     always {
+        archiveArtifacts artifacts: 'allure-report/**', fingerprint: true
+      }
   }
-}
+}}

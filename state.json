@@ -1,69 +1,12 @@
 {
-  "cookies": [
-    {
-      "name": "_ga",
-      "value": "GA1.1.1192385590.1767297603",
-      "domain": ".rahulshettyacademy.com",
-      "path": "/",
-      "expires": 1830369602,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "None"
-    },
-    {
-      "name": "_ga_NVJT9K1HZ2",
-      "value": "GS2.1.s1767297602$o1$g0$t1767297604$j58$l0$h1754172913",
-      "domain": ".rahulshettyacademy.com",
-      "path": "/",
-      "expires": 1830369604,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "None"
-    },
-    {
-      "name": "_gcl_au",
-      "value": "1.1.999789061.1767297602.1386150917.1767297605.1767297604",
-      "domain": ".rahulshettyacademy.com",
-      "path": "/",
-      "expires": 1775073602,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "None"
-    },
-    {
-      "name": "_fbp",
-      "value": "fb.1.1767297602954.975202016854910246",
-      "domain": ".rahulshettyacademy.com",
-      "path": "/",
-      "expires": 1775073605,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "None"
-    }
-  ],
+  "cookies": [],
   "origins": [
     {
       "origin": "https://rahulshettyacademy.com",
       "localStorage": [
         {
           "name": "token",
-          "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OTI5YWZkNDUwMDhmNmE5MDk0MDc5MTAiLCJ1c2VyRW1haWwiOiJzYW5reTdzc0BnbWFpbC5jb20iLCJ1c2VyTW9iaWxlIjo5ODc2NTQzMjEwLCJ1c2VyUm9sZSI6ImN1c3RvbWVyIiwiaWF0IjoxNzY3Mjk3NjA0LCJleHAiOjE3OTg4NTUyMDR9.Y-B_wRT-qxklS6nd8_iJc1oZ2mv-Rb9fQKh5UoI6WFE"
-        },
-        {
-          "name": "lastExternalReferrerTime",
-          "value": "1767297602925"
-        },
-        {
-          "name": "_gcl_ls",
-          "value": "{\"schema\":\"gcl\",\"version\":1,\"gcl_ctr\":{\"value\":{\"value\":1,\"timeouts\":0,\"creationTimeMs\":1767297602346},\"expires\":1775073602346}}"
-        },
-        {
-          "name": "lastExternalReferrer",
-          "value": "empty"
-        },
-        {
-          "name": "li_adsId",
-          "value": "c9bf20cd-bca4-401c-a654-093fcc4a0aa2"
+          "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OTI5YWZkNDUwMDhmNmE5MDk0MDc5MTAiLCJ1c2VyRW1haWwiOiJzYW5reTdzc0BnbWFpbC5jb20iLCJ1c2VyTW9iaWxlIjo5ODc2NTQzMjEwLCJ1c2VyUm9sZSI6ImN1c3RvbWVyIiwiaWF0IjoxNzY4OTk4OTE0LCJleHAiOjE4MDA1NTY1MTR9.j8RaY1_ahEHvhy59D5mxHJPG5l0d4Oa43mUk-C0mwtM"
         }
       ]
     }
