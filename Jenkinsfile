@@ -32,7 +32,12 @@ pipeline {
     
 }
 post {
-     always {
-        archiveArtifacts artifacts: 'allure-report/**', fingerprint: true
-      }
-  }}
+    always {
+        echo 'Publishing Allure Report'
+        allure([
+            includeProperties: false,
+            jdk: '',
+            results: [[path: 'allure-results']]
+        ])
+    }
+}}
