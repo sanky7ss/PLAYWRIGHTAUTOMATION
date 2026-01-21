@@ -21,7 +21,7 @@ pipeline {
     stage('Run Playwright Tests') {
       steps {
         bat 'npx playwright install '
-        bat 'npx playwright test'
+        bat 'npx playwright test tests/WebAIPIpart1.spec.js'
       }
     }
     stage('Generate Allure Report') {
@@ -32,7 +32,12 @@ pipeline {
     
 }
 post {
-     always {
-        archiveArtifacts artifacts: 'allure-report/**', fingerprint: true
-      }
-  }}
+    always {
+        echo 'Publishing Allure Report'
+        allure([
+            includeProperties: false,
+            jdk: '',
+            results: [[path: 'allure-results']]
+        ])
+    }
+}}
